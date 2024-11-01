@@ -2,6 +2,8 @@
 
 The `Projectile` and `ProjectileController` classes work together to create a parabolic trajectory for a projectile in Unity. This setup allows for customized, physics-based movement that mimics a natural arc, enabling both manual and automated control of the projectile’s path. Additionally, it includes features for visualizing the path, adjusting trajectory points, and managing trajectory execution.
 
+![](Gifs/Parable.gif)
+
 ## Table of Contents
 
 - [Classes](#classes)
