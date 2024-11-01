@@ -14,7 +14,6 @@ public class Projectile : MonoBehaviour
     [Header("Auto mode properties")]
     public float yOffset = 1f;
     ///
-    [HideInInspector]
     public bool isPaused;
     [HideInInspector]
     public Vector3 startPoint;
@@ -60,7 +59,7 @@ public class Projectile : MonoBehaviour
 
         while (progress < 1f)
         {
-            yield return null;
+            yield return new WaitForFixedUpdate();
             body.angularVelocity = Vector2.zero;
 
             progress += speed * GetPauseFactor() * Time.deltaTime;
