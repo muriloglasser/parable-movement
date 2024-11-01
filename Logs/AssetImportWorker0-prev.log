@@ -1,0 +1,647 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'pt' Physical Memory: 16349 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ITX-GAMER/Documents/GitHub/Parable-Movement
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64790
+Successfully changed project path to: C:/Users/ITX-GAMER/Documents/GitHub/Parable-Movement
+C:/Users/ITX-GAMER/Documents/GitHub/Parable-Movement
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10688] Host "[IP] 192.168.15.141 [Port] 0 [Flags] 2 [Guid] 3653708847 [EditorId] 3653708847 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LCMCQS3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10688] Host "[IP] 192.168.15.141 [Port] 0 [Flags] 2 [Guid] 3653708847 [EditorId] 3653708847 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LCMCQS3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 62.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ITX-GAMER/Documents/GitHub/Parable-Movement/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.026184 seconds.
+- Loaded All Assemblies, in  0.932 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.642 seconds
+Domain Reload Profiling: 1569ms
+	BeginReloadAssembly (380ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (147ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (373ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (286ms)
+				TypeCache.ScanAssembly (262ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (643ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (506ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.005 seconds
+Refreshing native plugins compatible for Editor in 7.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.107 seconds
+Domain Reload Profiling: 2104ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (681ms)
+		LoadAssemblies (529ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (202ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1107ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (871ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (588ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 8.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (349.5 KB). Loaded Objects now: 5390.
+Memory consumption went from 202.0 MB to 201.7 MB.
+Total: 4.196300 ms (FindLiveObjects: 0.389600 ms CreateObjectMapping: 0.418700 ms MarkObjects: 3.186000 ms  DeleteObjects: 0.200800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.737 seconds
+Refreshing native plugins compatible for Editor in 10.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.769 seconds
+Domain Reload Profiling: 3499ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (495ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2770ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1091ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (723ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 10.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4782 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (318.7 KB). Loaded Objects now: 5394.
+Memory consumption went from 177.9 MB to 177.6 MB.
+Total: 5.064300 ms (FindLiveObjects: 0.438900 ms CreateObjectMapping: 0.488000 ms MarkObjects: 4.008800 ms  DeleteObjects: 0.127600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 215372.090669 seconds.
+  path: Assets/ParableScript/ParableManager.unity
+  artifactKey: Guid(754f78849a787f74e86e2df2083e0478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParableScript/ParableManager.unity using Guid(754f78849a787f74e86e2df2083e0478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d65d2fa294ce8b2dd4e554b2a785c7') in 0.002812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.781 seconds
+Refreshing native plugins compatible for Editor in 7.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.142 seconds
+Domain Reload Profiling: 2917ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (512ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2142ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (929ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (642ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 5.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4784 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (318.8 KB). Loaded Objects now: 5400.
+Memory consumption went from 179.9 MB to 179.6 MB.
+Total: 4.592700 ms (FindLiveObjects: 0.408300 ms CreateObjectMapping: 0.516200 ms MarkObjects: 3.572100 ms  DeleteObjects: 0.095100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 243.846455 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/Black_RedSpot.mat
+  artifactKey: Guid(8a4d341f618654371ad279350d04e49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/Black_RedSpot.mat using Guid(8a4d341f618654371ad279350d04e49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce3d9918f58706384fc11ae0d3c923f') in 0.557185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/Eyelid.mat
+  artifactKey: Guid(99900c98b22da4152a6d148640e4306f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/Eyelid.mat using Guid(99900c98b22da4152a6d148640e4306f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e0d8a93aad6173e76be7c287197f80') in 0.019987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/eye.mat
+  artifactKey: Guid(58f45a861837648c1a593cc0381944fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/eye.mat using Guid(58f45a861837648c1a593cc0381944fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116f57ec65733c91f0ec9cd8aad47175') in 0.016727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/Red_Green_Black.png
+  artifactKey: Guid(191b54297b67446a1bf06f484f7aaed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/Red_Green_Black.png using Guid(191b54297b67446a1bf06f484f7aaed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90816fcb2fb59485b517d410f6a762bd') in 0.044206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/yellow.png
+  artifactKey: Guid(ec9b0290197004251a07673690f7e065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/yellow.png using Guid(ec9b0290197004251a07673690f7e065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fce4ea5b49661edccc791d1cfdf5756') in 0.037194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/Yellow_Black.png
+  artifactKey: Guid(4df24209a5cec4ec89c19aecc4bcbf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/Yellow_Black.png using Guid(4df24209a5cec4ec89c19aecc4bcbf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a2a18a6b3753f3c42d2291eda30d1c') in 0.035123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/blue.mat
+  artifactKey: Guid(cca42b20867c44ba8981cb8c0958b1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/blue.mat using Guid(cca42b20867c44ba8981cb8c0958b1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a09b622b62d6ad59fbfe0165b6d3a11') in 0.015250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/BodyNRM.png
+  artifactKey: Guid(ba4aa4e6e87bd41bcb0a5bf2ff872dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/BodyNRM.png using Guid(ba4aa4e6e87bd41bcb0a5bf2ff872dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e0cba099b7d4e1795515d337bd6475') in 0.046425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/Orange_Black_Blue.png
+  artifactKey: Guid(1dc0886e60e464a76aad1d510838fef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/Orange_Black_Blue.png using Guid(1dc0886e60e464a76aad1d510838fef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79d4e3ad2f936a7dc3a3dcf792ffa69') in 0.034282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/GutsBlood_Opaque.png
+  artifactKey: Guid(3236460ad9d3f481d884b700e1ded928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/GutsBlood_Opaque.png using Guid(3236460ad9d3f481d884b700e1ded928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbeeecb444e44892a2ff4355be888079') in 0.034063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/GutsBlood.mat
+  artifactKey: Guid(30843df26269d4c58b271422785f649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/GutsBlood.mat using Guid(30843df26269d4c58b271422785f649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75169e643f9afa89d6e21a632e43d95') in 0.054221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/GutsBloodNRM.png
+  artifactKey: Guid(d9e21f033d09f4778a02c389f360e7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/GutsBloodNRM.png using Guid(d9e21f033d09f4778a02c389f360e7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8192956d7e58edbab777c254e3aeee07') in 0.040526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/tongueNRM.png
+  artifactKey: Guid(04e3105e1a2c34924aff1d85222aab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/tongueNRM.png using Guid(04e3105e1a2c34924aff1d85222aab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c7c2b32ff195a1e000e040f2cb3e62') in 0.038713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/Orange_Black_Blue.mat
+  artifactKey: Guid(82258f0e08d574b24b1c786640fdae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/Orange_Black_Blue.mat using Guid(82258f0e08d574b24b1c786640fdae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36885de8c4e235f6078a656f37db424f') in 0.016059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/Yellow_Black.mat
+  artifactKey: Guid(989ddabccad084bdb8cc0c19d680b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/Yellow_Black.mat using Guid(989ddabccad084bdb8cc0c19d680b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cfd160c6f202f50fb34bec8b1ffde6') in 0.014707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/tongue.png
+  artifactKey: Guid(8469a1954266e4be79a8a1e5d1898e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/tongue.png using Guid(8469a1954266e4be79a8a1e5d1898e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0f15ab9f46cb6dc53d32f81d8b6c1c') in 0.036601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/BlueSpot.png
+  artifactKey: Guid(d5ed24a90a4554a1c8169fcc1d3faa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/BlueSpot.png using Guid(d5ed24a90a4554a1c8169fcc1d3faa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3026be796def8ee159a0248853ede955') in 0.045668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/eyelidNRM.png
+  artifactKey: Guid(3e3c8064829714820bcd20096cae158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/eyelidNRM.png using Guid(3e3c8064829714820bcd20096cae158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b53b3ba82f23045a1d0623b59443919') in 0.037278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/Black_RedSpot.png
+  artifactKey: Guid(bed322e71ae81461da532679c4c07550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/Black_RedSpot.png using Guid(bed322e71ae81461da532679c4c07550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df950c4a16a873ca7da86ff9425800f6') in 0.034824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/GutsBlood.png
+  artifactKey: Guid(b33ca8868cbd84444974d0f953adfd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/GutsBlood.png using Guid(b33ca8868cbd84444974d0f953adfd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dcdeba8873d41d7bb558830715e91b') in 0.034996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/tongue.mat
+  artifactKey: Guid(9689a737b8f5e4ace97a666e4c2aa78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/tongue.mat using Guid(9689a737b8f5e4ace97a666e4c2aa78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad170b5c92b6416d4900d8fa7610f91') in 0.012007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/Yellow.mat
+  artifactKey: Guid(a3b2303950a624313b019c4834557628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/Yellow.mat using Guid(a3b2303950a624313b019c4834557628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e54d47b49f5c60b353805b581f0484') in 0.016250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/eyelid.png
+  artifactKey: Guid(e5665a14783c74f1dad16ae99930d02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/eyelid.png using Guid(e5665a14783c74f1dad16ae99930d02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cbd9661f2611a813e7adae3336e98a') in 0.036985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/textures/Red_Green_Black.mat
+  artifactKey: Guid(a6966664c834d410daa31bc4ea1863a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/textures/Red_Green_Black.mat using Guid(a6966664c834d410daa31bc4ea1863a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa10b5b55144580b72e2b884ba70263') in 0.015193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 32.965861 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/GutsBlood.prefab
+  artifactKey: Guid(b0dea9a92e04b412daeb449ac74853bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/GutsBlood.prefab using Guid(b0dea9a92e04b412daeb449ac74853bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fb6b244ef007578c48926e663074b1') in 0.042913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/ToxicFrog_FBX.fbx
+  artifactKey: Guid(75116d3ad847f4b308aea41d92d1efb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/ToxicFrog_FBX.fbx using Guid(75116d3ad847f4b308aea41d92d1efb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a78fcbd466f285f21ffb02f8057456') in 2.230917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 336
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/ToxicFrog.prefab
+  artifactKey: Guid(0187bdd962557471faee34c9b592135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/ToxicFrog.prefab using Guid(0187bdd962557471faee34c9b592135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac73cb6b06dd926386cda61956ebf085') in 0.084224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 382
+========================================================================
+Received Import Request.
+  Time since last request: 7.757747 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/GutsBlood.prefab
+  artifactKey: Guid(b0dea9a92e04b412daeb449ac74853bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/GutsBlood.prefab using Guid(b0dea9a92e04b412daeb449ac74853bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61937661af5dc3976355a6c23d937208') in 0.015908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/ToxicFrog_FBX.fbx
+  artifactKey: Guid(75116d3ad847f4b308aea41d92d1efb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/ToxicFrog_FBX.fbx using Guid(75116d3ad847f4b308aea41d92d1efb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86161813338245aa0b1335dcfdbd5ab8') in 0.127566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 336
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/ToxicFrog.prefab
+  artifactKey: Guid(0187bdd962557471faee34c9b592135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/ToxicFrog.prefab using Guid(0187bdd962557471faee34c9b592135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6297558f880538dedd86b28392fa7e61') in 0.053289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 382
+========================================================================
+Received Import Request.
+  Time since last request: 8.421883 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/GutsBlood.prefab
+  artifactKey: Guid(b0dea9a92e04b412daeb449ac74853bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/GutsBlood.prefab using Guid(b0dea9a92e04b412daeb449ac74853bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd655d96263d526b07b96fe3b63651f0d') in 0.016657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/ToxicFrog_FBX.fbx
+  artifactKey: Guid(75116d3ad847f4b308aea41d92d1efb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/ToxicFrog_FBX.fbx using Guid(75116d3ad847f4b308aea41d92d1efb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07592c1a8cc889ac1451c8f4300d6a83') in 0.133818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 336
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/poisondartfrog/ToxicFrogs/ToxicFrog.prefab
+  artifactKey: Guid(0187bdd962557471faee34c9b592135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/poisondartfrog/ToxicFrogs/ToxicFrog.prefab using Guid(0187bdd962557471faee34c9b592135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab2fefd77ee233dd29a5aa01e357b3f') in 0.047157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 382
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.855 seconds
+Refreshing native plugins compatible for Editor in 12.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.787 seconds
+Domain Reload Profiling: 3635ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (586ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2788ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1124ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (236ms)
+			ProcessInitializeOnLoadAttributes (733ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 10.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4784 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (318.6 KB). Loaded Objects now: 5494.
+Memory consumption went from 189.7 MB to 189.4 MB.
+Total: 4.913800 ms (FindLiveObjects: 0.473100 ms CreateObjectMapping: 0.483800 ms MarkObjects: 3.852000 ms  DeleteObjects: 0.104100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
